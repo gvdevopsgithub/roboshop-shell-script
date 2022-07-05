@@ -1,7 +1,7 @@
 # roboshop-shell-script
 
-#  bash project
+robo shell
 
-# test online 123 
+learning shell
 
-#  venkatesh
+test online
