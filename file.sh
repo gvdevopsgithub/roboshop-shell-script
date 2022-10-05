@@ -2,6 +2,7 @@
 
 echo " Enter file Name: "
 read File_name
+
 #if [ -f $File_name ]
 #then
 #  echo " File $File_name found "
@@ -9,9 +10,20 @@ read File_name
 #    echo "File $File_name not found "
 #    fi
 
-if [ -d $File_name ]
+### Directory_name
+
+#if [ -d $File_name ]
+#then
+#  echo " dir $File_name found "
+#  else
+#    echo "dir $File_name not found "
+#    fi
+
+#### Read Permisssion
+
+if [ -r $File_name ]
 then
-  echo " dir $File_name found "
+  echo " read permission $File_name found "
   else
-    echo "dir $File_name not found "
+    echo "read permission $File_name not found "
     fi
