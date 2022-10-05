@@ -25,5 +25,5 @@ if [ -r $File_name ]
 then
   echo " read permission $File_name found "
   else
-    echo "read permission $File_name not found "
+    echo " read permission $File_name not found "
     fi
