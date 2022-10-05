@@ -11,4 +11,4 @@ read num2
 #echo "Multiplication :" $(( $num1 * $num2 ))
 #echo "Division :" $(( $num1 / $num2 ))
 
-echo "Scale=2;$num1/$num2" | bc
+echo "scale=2;$num1/$num2" | bc
