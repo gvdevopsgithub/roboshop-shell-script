@@ -15,7 +15,8 @@ read Inter
 #
 
 
-if [ $SSC -ge 70 -o $Inter -ge 60 ]
+#if [ $SSC -ge 70 -a $Inter -ge 60 ]
+if [ $SSC -ge 70 ] & [ $Inter -ge 60 ]
 then
   echo "Candidate eligible"
   else
