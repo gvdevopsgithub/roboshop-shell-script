@@ -6,4 +6,6 @@ echo "Enter 2nd num: "
 read num2
 
 echo "Addition :" $(( $num1 + $num2 ))
-
+echo "Substraction :" $(( $num1 - $num2 ))
+echo "Multiplication :" $(( $num1 * $num2 ))
+echo "Division :" $(( $num1 / $num2 ))
