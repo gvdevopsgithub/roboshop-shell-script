@@ -14,5 +14,5 @@ echo $BASH
 echo $PWD
 
 
-name=venky
+name=Venky
 echo $name
