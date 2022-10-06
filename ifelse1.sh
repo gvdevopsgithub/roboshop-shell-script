@@ -57,7 +57,7 @@ read -r d
 
 if [ $a -gt $b -a $a -gt $c -a $a -gt $d ]; then
   echo "$a is big"
-  elis [ $b -gt $c -a $b -gt $d ]; then
+  elif [ $b -gt $c -a $b -gt $d ]; then
     echo "$b is big"
     elif [ $c -gt $d ]; then
       echo "$c is big"
