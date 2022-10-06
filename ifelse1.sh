@@ -47,8 +47,10 @@
 #
 #
 
-a=10
-b=11
+echo "Enter a Value: "
+read a
+echo "Enter b Value: "
+read b
 
 echo
 if [ $a == $b ]
