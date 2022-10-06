@@ -9,3 +9,10 @@ echo "All Arguments values:" $@
 
 echo "First->" $1
 echo "Second->" $2
+
+
+echo "Total arguments:" $#
+echo "All arguments values:" $@
+
+echo "first->" $1
+echo "second->" $2
