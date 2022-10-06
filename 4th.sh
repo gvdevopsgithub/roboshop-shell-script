@@ -13,8 +13,7 @@
 
 echo "Enter your Name: "
 read name
-echo "Entered your name : $name"
 echo "Enter your Place: "
 read place
 echo "Entered your place : $place"
-
+echo "Entered your name : $name"
