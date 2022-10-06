@@ -44,30 +44,23 @@
 #    else
 #      echo "$d d is big"
 #      fi
-#
-#
-
-echo "Enter a Value: "
-read a
-echo "Enter b Value: "
-read b
-#
-#echo
-#if [ $a == $b ]
-#then
-#  echo "a is equal to b "
-#  else
-#    echo "a is not equal to b "
-#
-
-echo
-if [ $a -ge $b ]
-then
-  echo "a is greater than or equal to b "
-  else
-    echo "a is less than or equal to b "
-    fi
 
 
+echo -e "Please Enter a value: /c"
+read -r a
+echo -e "Please Enter b value: /c"
+read -r b
+echo -e "Please Enter c value: /c"
+read -r c
+echo -e "Please Enter d value: /c"
+read -r d
 
-
+if [ $a -gt $b -a $a -gt $c -a $a -gt $d ]; then
+  echo "$a is big"
+  elis [ $b -gt $c -a $b -gt $d ]; then
+    echo "$b is big"
+    elif [ $c -gt $d ]; then
+      echo "$c is big"
+      else
+        echo "$d is big"
+        fi
