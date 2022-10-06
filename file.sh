@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo " Enter file Name: "
-read File_name
+#echo " Enter file Name: "
+#read File_name
 
 #if [ -f $File_name ]
 #then
@@ -21,9 +21,19 @@ read File_name
 
 #### Read Permisssion
 
-if [ -r $File_name ]
+#if [ -r $File_name ]
+#then
+#  echo " read permission $File_name found "
+#  else
+#    echo " read permission $File_name not found "
+#    fi
+
+echo "Enter file name: "
+read File_name
+
+if [ -f $File_name ]
 then
-  echo " read permission $File_name found "
+  echo "File $File_name found "
   else
-    echo " read permission $File_name not found "
+    echo "File $File_name not found "
     fi
