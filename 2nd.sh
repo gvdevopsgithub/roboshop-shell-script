@@ -1,10 +1,18 @@
 #!/bin/bash
 
-#system defined variable
+##system defined variable
+#echo $BASH
+#echo $PWD
+#
+##user defined variable
+#
+#name=Venkatesh
+#echo $name
+
+
 echo $BASH
 echo $PWD
 
-#user defined variable
 
-name=Venkatesh
+name=venky
 echo $name

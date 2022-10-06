@@ -18,3 +18,4 @@ ls -ltr venky/*
 echo "Above are the Files"
 rm -rf venky/*
 echo "Your files are Successfully Deleted"
+
