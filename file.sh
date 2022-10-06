@@ -31,9 +31,9 @@
 echo "Enter file name: "
 read File_name
 
-if [ -d $File_name ]
+if [ -w $File_name ]
 then
-  echo "dir $File_name found "
+  echo "write permission $File_name found "
   else
-    echo "dir $File_name not found "
+    echo "write permission $File_name not found "
     fi
