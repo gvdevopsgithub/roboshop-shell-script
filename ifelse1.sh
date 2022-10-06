@@ -51,14 +51,14 @@ echo "Enter a Value: "
 read a
 echo "Enter b Value: "
 read b
-
-echo
-if [ $a == $b ]
-then
-  echo "a is equal to b "
-  else
-    echo "a is not equal to b "
-
+#
+#echo
+#if [ $a == $b ]
+#then
+#  echo "a is equal to b "
+#  else
+#    echo "a is not equal to b "
+#
 
 echo
 if [ $a -ge $b ]
@@ -67,3 +67,7 @@ then
   else
     echo "a is less than or equal to b "
     fi
+
+
+
+
