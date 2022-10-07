@@ -7,7 +7,7 @@
 
 
 value=0
-for i in /root/roboshop-sheel-script/*.pdf; do
+for i in /root/koushik/*.pdf; do
   DUU=$(du -h "$i" | awk '{print $1}')
   if [ $DUU == $value ]
   then
