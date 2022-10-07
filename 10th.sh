@@ -31,7 +31,7 @@ read SSC
 echo "Enter INTER Percentage: "
 read INTER
 
-if [ $SSC -ge 70] & [$INTER -ge 60 ]
+if [ $SSC -ge 70 ] & [ $INTER -ge 60 ]
 then
   echo "Candidate eligible"
   else
