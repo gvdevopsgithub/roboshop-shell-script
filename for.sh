@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#for i in *.pdf; do
-#  size=$(du -h "$i")
-#  echo "File: $size"
-#  done
+for i in *.pdf; do
+  size=$(du -h "$i")
+  echo "File: $size"
+  done
 
 
 #value=0
@@ -15,8 +15,3 @@
 #    mv -f $i /root/test
 #    fi
 #    done
-
-for i in *.ppt; do
-  size=$(du -h "$i")
-  echo "File: $size"
-  done
