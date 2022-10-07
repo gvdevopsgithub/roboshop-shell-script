@@ -6,12 +6,17 @@
 #  done
 
 
-value=0
-for i in /root/scripts/*.pdf; do
-  DUU=$(du -h "$i" | awk '{print $1}')
-  if [ $DUU == $value ]
-  then
-    echo " 0KB files $i "
-    mv -f $i /root/test
-    fi
-    done
+#value=0
+#for i in /root/scripts/*.pdf; do
+#  DUU=$(du -h "$i" | awk '{print $1}')
+#  if [ $DUU == $value ]
+#  then
+#    echo " 0KB files $i "
+#    mv -f $i /root/test
+#    fi
+#    done
+
+for i in *.ppt; do
+  size=$(du -h "$i")
+  echo "File: $size"
+  done
