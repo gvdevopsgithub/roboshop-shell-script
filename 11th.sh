@@ -23,7 +23,7 @@ read num2
 #echo "Multiplication: " $(( $num1 * $num2 ))
 #echo "Division: " $(( $num1 / $num2 ))
 
-echo "scale=2;$num1+$num2" | bc
-echo "scale=2;$num1-$num2" | bc
-echo "scale=2;$num1*$num2" | bc
-echo "scale=2;$num1/$num2" | bc
+echo "Addition: " "scale=2;$num1+$num2" | bc
+echo "Substraction: " "scale=2;$num1-$num2" | bc
+echo "Multiplication: " "scale=2;$num1*$num2" | bc
+echo "Division: " "scale=2;$num1/$num2" | bc
