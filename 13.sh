@@ -13,6 +13,6 @@
 #  echo "Number $i"
 #  done
 
-for i in {1..5} ; do
+for i in {1..20..3} ; do
   echo "Number $i"
   done
