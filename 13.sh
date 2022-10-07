@@ -13,6 +13,6 @@
 #  echo "Number $i"
 #  done
 
-for ((i=1; i<25; i--)); do
+for ((i=1; i<25; i++)); do
   echo "Number $i"
   done
