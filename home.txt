@@ -1,3 +1,7 @@
 hi
+<<<<<<< HEAD
 love
+=======
+
+>>>>>>> origin/main
 hi  venkatesh
